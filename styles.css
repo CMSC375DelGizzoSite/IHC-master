@@ -1,5 +1,6 @@
 body {
 background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 h1  {
@@ -39,7 +40,7 @@ nav ul{
 	max-height: auto;
 	background-color:#c33;
     position: relative;
-    margin: 0 -0.5em;
+    margin: 0 -0.7em;
     padding: 0.25rem 15px;
   	text-align: center;
 }
@@ -71,11 +72,6 @@ nav li a:hover{
 	color: #666;
 }
    
-/*.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}*/
 
 .img_float_right {
     margin-top: 10px;
@@ -108,7 +104,7 @@ nav li a:hover{
   width: 70%;
   border: 2px solid black;
   padding: 10px;
-	text-align: center;
+  text-align: center;
 }
 
 .square{ 
@@ -134,4 +130,21 @@ nav li a:hover{
 
 .removeBullets {
 	list-style: none;
+}
+
+.toolcontainer {
+    width: 96%;
+    max-width: 1920px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    grid-gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolcontainer img {
+    width: 100%;
+    height: auto;
 }
