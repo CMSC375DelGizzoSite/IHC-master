@@ -29,6 +29,10 @@ color: black;
 font-family: Helvetica,arial,sans-serif;
  }
 
+ul {
+	text-align: left;
+}
+
 nav {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
